@@ -1,0 +1,37 @@
+$tab-bg: #F0F0F0;
+$tab-active-bg: #cd2122;
+$tab-active-color: white;
+$tab-border-radius: 10px;
+
+.esprit-tab-container {
+  margin-bottom: 20px;
+}
+
+.esprit-tab-list {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.esprit-tab {
+  padding: 10px 15px;
+  background-color: $tab-bg;
+  border-radius: $tab-border-radius;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  min-width: max-content;
+
+  &.active {
+    background-color: $tab-active-bg;
+    color: $tab-active-color;
+  }
+}
+
+.esprit-tab-content {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}

@@ -1,0 +1,16 @@
+body{font-family:"Vazirmatn",Arial,sans-serif;line-height:1.6;margin:0;padding:20px;background-color:#f5f5f5}
+.container{max-width:576px;margin:0 auto;background-color:#fff;padding:20px;border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,.1)}
+h1{text-align:center;color:#333;margin-bottom:30px}
+@keyframes fadeIn{
+from{opacity:0}
+to{opacity:1}
+}
+.sample-content{display:flex;flex-wrap:wrap;gap:20px}
+.card{width:calc(33.33% - 20px);border-radius:8px;overflow:hidden;box-shadow:0 2px 5px rgba(0,0,0,.1);transition:transform .3s}
+.card:hover{transform:translateY(-5px)}
+.card img{width:100%;height:180px;object-fit:cover}
+.card-content{padding:15px}
+.card h3{margin-top:0;color:#333}
+.card p{color:#666;margin-bottom:10px}
+.btn{display:inline-block;padding:8px 15px;background-color:#cd2122;color:#fff;text-decoration:none;border-radius:5px;font-size:14px;transition:background-color .3s}
+.btn:hover{background-color:#a51b1b}

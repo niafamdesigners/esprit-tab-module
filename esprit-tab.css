@@ -1,0 +1,30 @@
+.esprit-tab-container {
+  margin-bottom: 20px;
+}
+
+.esprit-tab-list {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.esprit-tab {
+  padding: 10px 15px;
+  background-color: #F0F0F0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  min-width: max-content;
+}
+.esprit-tab.active {
+  background-color: #cd2122;
+  color: white;
+}
+
+.esprit-tab-content {
+  display: none;
+}
+.esprit-tab-content.active {
+  display: block;
+}/*# sourceMappingURL=esprit-tab.css.map */
